@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="en">
+    
+    <head>
+        <title>Student Sign Up </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="CSS/styles.css">
+        <script src="JS/scripts.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+        
+		
+		<!--icon library -->
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+
+    <body ng-app="find-my-ta">
+        <div class="container-fluid" ng-controller="FrontPageController">
+
+            <div class="row">
+
+                <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" style="border-right: ">
+
+                    <div class="row"><h2 class="loginheader">Update Info</h2></div>
+                    <div class="row">
+
+                        <form>
+                            <label for="uname" style="display: block;"><b>Username</b></label>
+                            <input type="text" name="uname" required ng-model="studentUsername">
+							
+							
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" name="psw" required ng-model="studentPassword">
+							
+							
+							<label for="uname" style="display: block;"><b>Re-enter Password</b></label>
+                            <input type="password" name="uname">			
+							<label for="uname" style="display: block;"><b>Email</b></label>
+                            <input type="text" name="uname">
+							
+							
+							<label for="uname" style="display: block;"><b>Birthdate</b></label>
+                            <input type="text" placeholder="MM/DD/YYYY" name="uname">
+							
+						
+							
+							<label style="display: block;"></label>
+							
+							<div class = "gatorlink" style="margin:auto">
+							<button class="btn"><i class="fa fa-university">GatorLink</i></button>
+							</div>
+							
+							<label style="display: block;"></label>
+							
+							<div class = "tw">
+							<button class="btn"><i class="fa fa-twitter">Twitter</i></button>
+							</div>
+							<label style="display: block;"></label>
+							
+							<div class = "fb">
+							<button class="btn"><i class="fa fa-facebook">Facebook</i></button>
+							</div>
+							
+                            <button class="login" type="submit" ng-click="logInStudent()">Update</button>
+							<br><br><br>
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+				
+
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+
+                    <div class="row"><h2 class="loginheader">Upload Profile Picture</h2></div>
+                    <div class="row">
+					<br>
+					<img class="profilepic" src="avatar.png" alt="your image" />
+					<br><br>
+					<input class= "choose" type='file' onchange="readURL(this);" />
+
+
+			
+					
+					
+				
+
+                </div>
+
+                <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2"></div>
+
+            </div>
+            <div style="height: 50px;"></div>
+        </div>
+        <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-resource.js"></script>
+        <script src="app.js"></script>
+        <script src="frontPageController.js"></script>
+    </body>
+    
+</html>

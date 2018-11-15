@@ -1,0 +1,289 @@
+html, body{ height:100%; width:100%; font-family: 'Quicksand'; overflow-y: overlay; }
+html, body, table, td, tr{ margin:0; padding:0; }
+
+
+.btn:hover{
+	
+	
+}
+
+.fa:hover {
+	color: white;
+}
+.gatorlink .btn {
+	color: white;
+	 background-color: #191970;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.fb .btn {
+	color: white;
+	background-color: #3C5A99;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tw .btn {
+	color: white;
+	background-color: #38A1F3;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.choose{
+	border: none;
+	margin: auto;
+	font-size: 20px;
+}
+.profilepic {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	width: 150px;
+	height: 150px;
+}
+.title h1 {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    color: #333;
+    margin-top: 17vh;
+    font-size: 85px;
+}
+@media (max-width: 550px) {
+    .title h1 {
+        font-size: 55px;
+        margin-top: 15vh;
+    }
+}
+.loginheader {
+	margin-left: 30px;
+    margin-bottom: 10px; 
+    margin-top: 60px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+.title {
+    text-align: center;
+    margin-top: 80px;
+}
+label, input {
+    display: block;
+    font-family: 'Quicksand';
+}
+label {
+    text-align: left;
+    margin-left: 13.7px;
+    margin-top: 12px;
+    line-height: 12px;
+}
+input {
+    height: 36px;
+    border: 1px solid #7cdaff;
+    border-radius: 18px;
+    background-color: white;
+    transition: all 0.15s ease-out;
+    width: 310px;
+    padding: 6px 12px;
+    transition: all 0.25s ease-out;
+}
+input:focus {
+    border: 1px solid #42c2f4;
+    box-shadow: 0 0 0 1px #42c2f4;
+    outline: none;
+}
+form { 
+    margin: 0 auto; 
+    width:310px;
+}
+.login {
+    margin-top: 28px;
+    width: 310px;
+    border: none;
+    border-radius: 18px;
+    background-color: #42c2f4;
+    color: white;
+    font-weight: 700;
+    height: 36px;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    transition: all 0.25s ease-out;
+}
+.login:hover {
+    background-color: #7cdaff;
+}
+.signup {
+    float: right;
+    margin-top: 6px;
+    margin-right: 6px;
+    color: #42c2f4;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 0.25s ease-out;
+}
+.signup:hover {
+    color: #7cdaff;
+    text-decoration: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0px 1000px #eaf8ff inset;
+}
+.topwindow {
+    background-color: #42c2f4;
+    color: white;
+    height: 60%;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+    font-family: 'Quicksand';
+    display: table;
+}
+.botwindow {
+    height: 40%;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    overflow: hidden;
+    font-family: 'Quicksand';
+    display: table;
+}
+.leftwindow {
+    background-color: #42c2f4;
+    color: white;
+    width: 60%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+    font-family: 'Quicksand';
+    display: table;
+}
+.rightwindow {
+    width: 40%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    overflow: hidden;
+    font-family: 'Quicksand';
+    display: table;
+}
+.homebutts {
+    margin-top: 28px;
+    width: 310px;
+    border: none;
+    border-radius: 18px;
+    background-color: #42c2f4;
+    color: white;
+    font-weight: 700;
+    height: 48px;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    transition: all 0.25s ease-out;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homebutts:hover {
+    background-color: #7cdaff;
+}
+.buttcontainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+.smallbutts {
+    margin-top: 28px;
+    width: 100px;
+    border: none;
+    border-radius: 18px;
+    background-color: #42c2f4;
+    color: white;
+    font-weight: 700;
+    height: 48px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    transition: all 0.25s ease-out;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.smallbutts:hover {
+    background-color: #7cdaff;
+}
+.smbuttcontainer {
+    margin: auto;
+    width: 310px;
+    height: 48px;
+}
+.tatable {
+    width: 65%;
+    min-width: 450px;
+    background-color: white;
+    color: #333;
+    border-radius: 18px;
+    margin-left:auto; 
+    margin-right:auto;
+    line-height: 30px;
+}
+@media only screen and (max-width: 500px) {
+    .tatable {
+        width: 100%;
+        min-width: 0px;
+        background-color: white;
+        color: #333;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+    .cname {
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+.tatable tbody tr {
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+}
+.tatable tbody tr:hover {
+    background-color: #C9F0FF;
+}
+.tatable tbody tr:active {
+    color: #42c2f4;
+}
+.tablebutts {
+    background-color: white;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    margin-top: 14px;
+    width: 153px;
+    transition: all 0.15s ease-out;
+}
+.tablebutts:hover {
+    background-color: #C9F0FF;
+}
